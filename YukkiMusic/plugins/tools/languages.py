@@ -27,7 +27,7 @@ def lanuages_keyboard(_):
         InlineKeyboardButton(
             text="🏴󠁧󠁢󠁥󠁮󠁧󠁿 English",
             callback_data=f"languages:en",
-    )
+    ),
     keyboard.row(
         InlineKeyboardButton(
             text=_["BACK_BUTTON"],
